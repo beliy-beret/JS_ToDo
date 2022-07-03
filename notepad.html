@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+    <html lang="ru">
+        <head>
+            <title>Список заданий</title>
+            <meta charset="utf-8"/>
+            <link rel="stylesheet" type="text/css" href="css/style.css"/>            
+            <script src="script.js"></script>
+        </head>
+        <body>
+            <div class="fixed-container">
+                <div id="left">
+                    <h2>Список дел:</h2>                                        
+                </div>
+                <div class="right">
+                    <h2>Добавить новое дело</h2>
+                    <div class="input">
+                        <h3>*Название</h3><input id="input" type="text">
+                        <h3>*Описание</h3><textarea id="description"></textarea>
+                        <button class="button" onclick="createTask()">Добавить дело</button>                        
+                    </div>                    
+                </div>
+            </div>
+        </body>
+    </html>
